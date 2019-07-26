@@ -22,7 +22,7 @@ io.on('connection', (socket) => {
     })
 
     socket.on('new_message', (data) => {
-        io.sockets.emit('new_message', {message : data.message, username : socket.username});
+        io.sockets.emit('add_mess', {message : data.message, username : socket.username, className:data.className});
     })
 
     socket.on('typing', (data) => {

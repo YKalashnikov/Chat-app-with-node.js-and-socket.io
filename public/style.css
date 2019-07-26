@@ -12,7 +12,8 @@
   }
   
   html {
-      height: 95%;
+      height: 90%;
+      width:99%;
   }
   
   body {
@@ -77,6 +78,11 @@
       display: inline-block;
       height: 80%;
       width: 10%;
+  }
+  .alert{
+    padding: 10px;
+    margin: 12px;
+    width:auto;
   }
   
   p.message {
